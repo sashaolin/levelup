@@ -20,11 +20,7 @@
 # print(next(s_iter1))
 # print(next(s_iter1))
 
-# class GeneratorRange1:
-#     def __init__(self, stop, start=0, step=1):
-#         self.start = start
-#         self.stop = stop
-#         self.step = step
+
 
 def simple_generator(stop, start=0, step=1):
     while start < stop:
